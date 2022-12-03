@@ -187,6 +187,12 @@ li:not(:last-child) a {
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     grid-gap: 20px;
 }
+@media (min-width:1399px) {
+    .features .container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
 .features .feat{
     padding: 20px;
     text-align: center;
@@ -216,6 +222,12 @@ li:not(:last-child) a {
     grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
     grid-gap: 30px;
     margin-top: 100px;
+}
+@media (min-width:1399px) {
+    .services .services-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
 }
 @media (max-width: 1199px) and (min-width:767px) {
     .services .services-content{
@@ -295,7 +307,12 @@ li:not(:last-child) a {
     grid-gap: 30px;
     margin-top: 80px;
 }
+@media (min-width:1399px) {
+    .portfolio .portfolio-content{
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+}
 .portfolio .portfolio-content .card{
     background-color: white;
 }
